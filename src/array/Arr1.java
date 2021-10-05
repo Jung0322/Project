@@ -7,6 +7,8 @@ public class Arr1 {
 				{47,54,57},
 				{37,78,58,49}
 		};
+		
+		public void method(){
 		System.out.println("행"+arr.length);
 		System.out.println("열1"+arr[0].length);
 		System.out.println("열2"+arr[1].length);
@@ -16,5 +18,6 @@ public class Arr1 {
 			for (int j = 0; j < arr[i].length; j++) {
 				System.out.printf("%d", arr[i][j]);
 			}
+		}
 		}
 }
