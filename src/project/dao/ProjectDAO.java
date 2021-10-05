@@ -1,6 +1,8 @@
 package project.dao;
 
 import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
 
 public class ProjectDAO {
 	
@@ -13,6 +15,7 @@ public class ProjectDAO {
 		}
 	}
 	
+	// 드라이브 연결
 	public static Connection getConnection() {
 		String url = "jdbc:oracle:thin:@localhost:1521:xe";
 		String user = "c##scott";
@@ -20,6 +23,12 @@ public class ProjectDAO {
 		
 		Connection con = null;
 		
+		try {
+			con = DriverManager.getConnection(url, user, password);
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		return con;
 	}
 	
 	
