@@ -4,6 +4,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
+<<<<<<< HEAD
 public class ProjectDAO {
 	
 	
@@ -53,6 +54,15 @@ public class ProjectDAO {
 	
 	
 	
+=======
+	static {
+		try {
+			Class.forName("oracle.jdbc.OracleDriver");
+		} catch (ClassNotFoundException e) {			
+			e.printStackTrace();
+		}
+	}
+>>>>>>> branch 'master' of https://github.com/Jung0322/Project.git
 	
 	
 	
