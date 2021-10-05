@@ -97,7 +97,4 @@ public class ProjectDTO {
 				+ hiredate + ", sal=" + sal + ", comm=" + comm + ", deptno=" + deptno + "]";
 	}
 	
-	
-	
-	
 }
