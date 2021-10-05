@@ -37,10 +37,6 @@ public class ProjectDAO {
 		}
 		return con;
 	}
-	
-	
-	
-	
 
 }
 	
