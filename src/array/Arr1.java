@@ -8,7 +8,7 @@ public class Arr1 {
 				{37,78,58,49}
 		};
 		
-		
+		public void print() {
 		System.out.println("행"+arr.length);
 		System.out.println("열1"+arr[0].length);
 		System.out.println("열2"+arr[1].length);
@@ -19,4 +19,5 @@ public class Arr1 {
 				System.out.printf("%d", arr[i][j]);
 			}
 		}
+}
 }
