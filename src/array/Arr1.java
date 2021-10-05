@@ -7,6 +7,7 @@ public class Arr1 {
 				{47,54,57},
 				{37,78,58,49}
 		};
+
 		
 	
 		public void print() {
@@ -20,6 +21,8 @@ public class Arr1 {
 					System.out.printf("%d", arr[i][j]);
 				}
 			}
-			
-		}		
-}
+
+		}
+		}
+
+
